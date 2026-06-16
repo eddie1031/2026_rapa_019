@@ -16,5 +16,9 @@ public class HelloController {
         return "Good Bye!";
     }
 
+    @GetMapping("/hi")
+    public String sayHi() {
+        return "Hi!";
+    }
 
 }
